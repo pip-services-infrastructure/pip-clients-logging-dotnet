@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>PipClients.Logging.NetCoreApp11</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <DefineConstants>$(DefineConstants);CORE_NET</DefineConstants>
+    <PackageId>PipClients.Logging.NetCoreApp11</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <PostBuildEvent></PostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PipServices.Commons" Version="2.0.5" />
+    <PackageReference Include="PipServices.Container" Version="2.0.2" />
+    <PackageReference Include="PipServices.Data" Version="2.0.3" />
+    <PackageReference Include="PipServices.Net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\pip-services-logging-dotnet\src\PipServices.Logging.Models\PipServices.Logging.Models.csproj" />
+  </ItemGroup>
+
+</Project>
