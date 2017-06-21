@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\pip-services-logging-dotnet\src\PipServices.Logging.Models\PipServices.Logging.Models.csproj" />
+    <ProjectReference Include="..\..\..\pip-services-logging-dotnet\src\PipServices.Logging.Models.NetCoreApp11\PipServices.Logging.Models.NetCoreApp11.csproj" />
   </ItemGroup>
 
 </Project>
